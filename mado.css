@@ -178,10 +178,6 @@
         color: var(--color-mado-morado) !important;
     }
 
-    .icono.fondo {
-        background-color: var(--color-mado-rojo);
-    }
-
     .introduccion {
         .titulo {
             color: var(--color-mado-rojo);
