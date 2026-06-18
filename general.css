@@ -17,6 +17,10 @@
     --color-embus-principal: #2180c3;
     --color-embus-claro: #c8e7f1;
     --color-embus-secundario: #e841d9;
+    --color-efm-principal:#384573;
+    --color-efm-secundario:#fbb03b;
+    --color-efm-acento1:#5172d6;
+    --color-efm-acento2:#f78407;
 
 
     --icon-bus: url(https://universidad.mobilityado.com/pluginfile.php/55317/mod_folder/content/0/iconos/bus.svg);
@@ -97,7 +101,7 @@ h5,
 h6,
 .highlight,
 .call2action {
-    font-family: "Rams", sans-serif !important;
+    font-family: "Rams" !important;
 }
 
 
@@ -695,6 +699,25 @@ h5.bg {
     margin: 40px 0;
     padding-top: 20px;
     padding-bottom: 20px;
+}
+
+.bg-imagen{
+    background-size: cover;
+    background-position: center;
+
+    .col{
+        background-color: rgba(0, 0, 0, 0.5);
+        color: white !important;
+
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6 {
+            color: white !important;
+        }
+    }
 }
 
 .botones_navegacion {

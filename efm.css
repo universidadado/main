@@ -1,0 +1,151 @@
+.efm{
+    h1,
+    h2{
+        color: var(--color-efm-principal) !important;
+    }
+
+    h3,
+    h4,
+    b{
+        color: var(--color-efm-secundario) !important;
+        font-weight: 700;
+    }
+
+    .call2action, a{
+        color: var(--color-efm-acento2) !important;
+    }
+
+    .highlight{
+        color:var(--color-efm-acento1) !important;
+    }
+
+    .bg{
+        background-color: var(--color-efm-principal);
+        color: var(--color-efm-secundario) !important;
+        span{
+            color: var(--color-efm-acento2) !important;
+        }
+    }
+
+    .borde{
+        border-bottom: 2px solid var(--color-efm-secundario) !important;
+        span{
+            color: var(--color-efm-acento2) !important;
+        }
+    }
+
+    .banner{
+        .titulo {
+            background-color: var(--color-efm-principal);
+
+            h1,
+            h2,
+            h3,
+            h4,
+            h5,
+            h6 {
+                color: var(--color-efm-secundario) !important;
+            }
+        }
+
+        p {
+            background-color: var(--color-efm-principal);
+        }
+
+        ;
+    }
+
+    .bg-gris{
+        background-color: #d1d6e8;
+        b{
+            color: var(--color-efm-acento2) !important;
+        }
+    }
+
+    .bg-oscuro{
+        background-color: var(--color-efm-principal);
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6 {
+            color: white !important;
+        }
+    }
+
+    .bg-azul{
+        background-color: var(--color-efm-acento1);
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6,
+        p,li {
+            color: white !important;
+        }
+    }
+
+    .bg-imagen{
+        background-image: url(Images/pemu_bg_01.jpg) !important;
+    }
+
+    .bg-img-izq{
+        background-color: var(--color-efm-principal);
+        color: white !important;
+
+        .imagen{
+            background-image: url(Images/pemu_bg_01.jpg) !important;
+        }
+
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6,
+        p,li {
+            color: white !important;
+        }
+    }
+
+    .introduccion{
+        .break{
+            border-top: thin solid var(--color-efm-secundario) !important;
+        }
+
+        .titulo{
+            color:var(--color-efm-acento2) !important;
+        }
+
+        .material{
+            background-color: var(--color-efm-principal);
+        }
+    }
+
+    .repaso{
+        .head{
+            background-color: var(--color-efm-principal);
+            color: white !important;
+            h2{
+                color: var(--color-efm-secundario) !important;
+            }
+        }
+    }
+
+    .importante{
+        background-color: var(--color-efm-principal);
+        color: white !important;
+    }
+
+    .ejemplo, .tips{
+        background-color: var(--color-efm-secundario);
+    }
+
+    .accordion{
+        h5 button{
+            color: var(--color-efm-secundario) !important;
+        }
+    }
+}
