@@ -85,6 +85,11 @@
     .highlight {
         color: var(--color-mado-morado);
     }
+
+    .importante {
+        background: var(--color-mado-morado);
+        color: white !important;
+    }
 }
 
 
