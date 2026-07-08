@@ -1,0 +1,168 @@
+.efoperaciones{
+
+    h1,
+    h2,
+    b{
+        color: var(--color-operaciones-principal) !important;
+    }
+
+    h3,
+    h4{
+        color: var(--color-operaciones-secundario) !important;
+        font-weight: 700;
+    }
+
+    .call2action, a{
+        color: var(--color-operaciones-acento1) !important;
+    }
+
+    .highlight{
+        color:var(--color-operaciones-acento2) !important;
+        font-size: xx-large;
+    }
+
+    .bg{
+        background-color: var(--color-operaciones-principal);
+        color: white !important;
+        span{
+            color: var(--color-operaciones-acento1) !important;
+        }
+    }
+
+    .borde{
+        border-bottom: 2px solid var(--color-operaciones-secundario) !important;
+        span{
+            color: var(--color-operaciones-acento1) !important;
+        }
+    }
+
+    .banner{
+        .titulo {
+            background-color: var(--color-operaciones-principal);
+
+            h1,
+            h2,
+            h3,
+            h4,
+            h5,
+            h6 {
+                color: white !important;
+            }
+        }
+
+        p {
+            background-color: var(--color-operaciones-acento2);
+        }
+
+        ;
+    }
+
+    .bg-gris{
+        b{
+            color: var(--color-operaciones-acento2) !important;
+        }
+    }
+
+    .bg-oscuro{
+        background-color: var(--color-operaciones-secundario);
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6 {
+            color: white !important;
+        }
+
+        b{
+            color: var(--color-operaciones-acento1) !important;
+        }
+    }
+
+    .bg-azul{
+        background-color: var(--color-operaciones-acento1);
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6,
+        p,li {
+            color: white !important;
+        }
+    }
+
+    .bg-imagen{
+        background-image: url(Images/pemu_bg_01.jpg) !important;
+
+        b{
+            color: var(--color-operaciones-acento1) !important;
+        }
+    }
+
+    .bg-img-izq{
+        background-color: var(--color-operaciones-principal);
+        color: white !important;
+
+        .imagen{
+            background-image: url(Images/pemu_bg_01.jpg) !important;
+        }
+
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6,
+        p,li {
+            color: white !important;
+        }
+
+        b{
+            color: var(--color-operaciones-acento1) !important;
+        }
+    }
+
+    .introduccion{
+        .break{
+            border-top: thin solid var(--color-operaciones-secundario) !important;
+        }
+
+        .titulo{
+            color:var(--color-operaciones-principal) !important;
+        }
+
+        .material{
+            background-color: var(--color-operaciones-secundario);
+
+            .titulo{
+                color: white !important;
+            }
+        }
+    }
+
+    .repaso{
+        .head{
+            background-color: var(--color-operaciones-principal);
+            color: white !important;
+            h2{
+                color: white !important;
+            }
+        }
+    }
+
+    .importante{
+        background-color: var(--color-operaciones-secundario);
+        color: white !important;
+    }
+
+    .ejemplo, .tips{
+        background-color: var(--color-operaciones-acento1);
+    }
+
+    .accordion{
+        h5 button{
+            color: var(--color-operaciones-principal) !important;
+        }
+    }
+}

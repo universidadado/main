@@ -21,6 +21,10 @@
     --color-efm-secundario:#fbb03b;
     --color-efm-acento1:#5172d6;
     --color-efm-acento2:#f78407;
+    --color-operaciones-principal: #E1261B;
+    --color-operaciones-secundario: #5F2167;
+    --color-operaciones-acento1: #fbb03b;
+    --color-operaciones-acento2: #a3221c;
 
 
     --icon-bus: url(https://universidad.mobilityado.com/pluginfile.php/55317/mod_folder/content/0/iconos/bus.svg);
@@ -87,7 +91,42 @@
     --icon-dinero-bg: url(https://universidad.mobilityado.com/pluginfile.php/55317/mod_folder/content/0/iconos/dinero_bg.svg);
 
     --imagen-ahorrobus: url(https://universidad.mobilityado.com/pluginfile.php/8424/mod_folder/content/0/Ahorrobus/ahorrobus01.png);
+
+    
+
+    --logo-uado: url(https://universidad.mobilityado.com/pluginfile.php/36/mod_folder/content/0/Logos/logotipo_U-ADO_positivo.svg);
+    --logo-uado-negativo: url(https://universidad.mobilityado.com/pluginfile.php/36/mod_folder/content/0/Logos/logotipo_U-ADO_negativo.svg);
+    --logo-uado-redux: url(https://universidad.mobilityado.com/pluginfile.php/36/mod_folder/content/0/Logos/logotipo_U-ADO_redux.svg);
+    --logo-uado-redux-negativo: url(https://universidad.mobilityado.com/pluginfile.php/36/mod_folder/content/0/Logos/logotipo_U-ADO_redux.svg);
+
+    --logo-mado: url(https://universidad.mobilityado.com/pluginfile.php/36/mod_folder/content/0/Logos/logo_MADO_positivo.svg);
+    --logo-mado-negativo: url(https://universidad.mobilityado.com/pluginfile.php/36/mod_folder/content/0/Logos/logo_MADO_negativo.svg);
+    --logo-mado-redux: url(https://universidad.mobilityado.com/pluginfile.php/36/mod_folder/content/0/Logos/logo_MADO_redux.svg);
+    --logo-mado-redux-negativo: url(https://universidad.mobilityado.com/pluginfile.php/36/mod_folder/content/0/Logos/logo_MADO_redux_negativo.svg);
+
+    --logo-rrhh: url(https://universidad.mobilityado.com/pluginfile.php/36/mod_folder/content/0/Logos/logo_rrhh_positivo.svg);
+    --logo-rrhh-negativo: url(https://universidad.mobilityado.com/pluginfile.php/36/mod_folder/content/0/Logos/logo_rrhh_negativo.svg);
+    --logo-rrhh-redux: url(https://universidad.mobilityado.com/pluginfile.php/36/mod_folder/content/0/Logos/logo_rrhh_redux.svg);
+    --logo-rrhh-redux-negativo: url(https://universidad.mobilityado.com/pluginfile.php/36/mod_folder/content/0/Logos/logo_rrhh_redux_negativo.svg);
+
+    --logo-efm: url(https://universidad.mobilityado.com/pluginfile.php/36/mod_folder/content/0/Logos/logo_efm_positivo.svg);
+    --logo-efm-negativo: url(https://universidad.mobilityado.com/pluginfile.php/36/mod_folder/content/0/Logos/logo_efm_negativo.svg);
+    --logo-efm-redux: url(https://universidad.mobilityado.com/pluginfile.php/36/mod_folder/content/0/Logos/logo_efm_redux.svg);
+    --logo-efm-redux-negativo: url(https://universidad.mobilityado.com/pluginfile.php/36/mod_folder/content/0/Logos/logo_efm_redux_negativo.svg);
+
+    --logo-urbano: url(https://universidad.mobilityado.com/pluginfile.php/36/mod_folder/content/0/Logos/logo_urbano_positivo.svg);
+    --logo-urbano-negativo: url(https://universidad.mobilityado.com/pluginfile.php/36/mod_folder/content/0/Logos/logo_urbano_negativo.svg);
+    --logo-urbano-redux: url(https://universidad.mobilityado.com/pluginfile.php/36/mod_folder/content/0/Logos/logo_urbano_redux.svg);
+    --logo-urbano-redux-negativo: url(https://universidad.mobilityado.com/pluginfile.php/36/mod_folder/content/0/Logos/logo_urbano_redux_negativo.svg);
+
+    --logo-operaciones: url(https://universidad.mobilityado.com/pluginfile.php/36/mod_folder/content/0/Logos/logo_operaciones_positivo.svg);
+    --logo-operaciones-negativo: url(https://universidad.mobilityado.com/pluginfile.php/36/mod_folder/content/0/Logos/logo_operaciones_negativo.svg);
+    --logo-operaciones-redux: url(https://universidad.mobilityado.com/pluginfile.php/36/mod_folder/content/0/Logos/logo_operaciones_redux.svg);
+    --logo-operaciones-redux-negativo: url(https://universidad.mobilityado.com/pluginfile.php/36/mod_folder/content/0/Logos/logo_operaciones_redux_negativo.svg);
 }
+
+
+
 
 
 
@@ -507,7 +546,7 @@ ul.list-group {
 .bg-gris,
 .objetivo,
 .resumen {
-    background-color: #eee;
+    background-color: #F7F7F7;
 }
 
 .bg-oscuro {
@@ -786,6 +825,120 @@ h5.bg {
     .bg-img-izq .imagen {
         height: 300px;
     }
+}
+
+
+.logo{
+    width: 100%;
+    max-width: var(--w);
+    height: var(--h);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    margin: 20px auto;
+}
+
+.logo.uado{
+    background-image: var(--logo-uado);
+}
+
+.logo.uado.negativo{
+    background-image: var(--logo-uado-negativo);
+}
+
+.logo.uado.redux{
+    background-image: var(--logo-uado-redux);
+}
+
+.logo.uado.redux.negativo{
+    background-image: var(--logo-uado-redux-negativo);
+}
+
+.logo.mado{
+    background-image: var(--logo-mado);
+}
+
+.logo.mado.negativo{
+    background-image: var(--logo-mado-negativo);
+}
+
+.logo.mado.redux{
+    background-image: var(--logo-mado-redux);
+}
+
+.logo.mado.redux.negativo{
+    background-image: var(--logo-mado-redux-negativo);
+}
+
+
+
+.logo.efrrhh{
+    background-image: var(--logo-rrhh);
+}
+
+.logo.efrrhh.negativo{
+    background-image: var(--logo-rrhh-negativo);
+}
+
+.logo.efrrhh.redux{
+    background-image: var(--logo-rrhh-redux);
+}
+
+.logo.efrrhh.redux.negativo{
+    background-image: var(--logo-rrhh-redux-negativo);
+}
+
+
+.logo.efm{
+    background-image: var(--logo-efm);
+}
+
+.logo.efm.negativo{
+    background-image: var(--logo-efm-negativo);
+}
+
+.logo.efm.redux{
+    background-image: var(--logo-efm-redux);
+}
+
+.logo.efm.redux.negativo{
+    background-image: var(--logo-efm-redux-negativo);
+}
+
+
+.logo.efurbano{
+    background-image: var(--logo-urbano);
+}
+
+.logo.efurbano.negativo{
+    background-image: var(--logo-urbano-negativo);
+}
+
+.logo.efurbano.redux{
+    background-image: var(--logo-urbano-redux);
+}
+
+.logo.efurbano.redux.negativo{
+    background-image: var(--logo-urbano-redux-negativo);
+}
+
+
+.logo.efoperaciones{
+    background-image: var(--logo-operaciones);
+}
+.logo.efoperaciones.negativo{
+    background-image: var(--logo-operaciones-negativo);
+}
+.logo.efoperaciones.redux{
+    background-image: var(--logo-operaciones-redux);
+}
+.logo.efoperaciones.redux.negativo{
+    background-image: var(--logo-operaciones-redux-negativo);
+}
+
+
+.logo.wip{
+    border: thin solid rgb(245, 204, 22);
 }
 
 

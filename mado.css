@@ -47,10 +47,6 @@
         }
     }
 
-    .bg-gris {
-        background-color: #e6e6e6;
-    }
-
     .bg-oscuro,
     .bg-img-izq {
         background-color: var(--color-mado-morado) !important;
