@@ -17,6 +17,7 @@
     --color-embus-principal: #2180c3;
     --color-embus-claro: #c8e7f1;
     --color-embus-secundario: #e841d9;
+    --color-embus-acento1: #589c63;
     --color-efm-principal:#384573;
     --color-efm-secundario:#fbb03b;
     --color-efm-acento1:#5172d6;
@@ -25,6 +26,8 @@
     --color-operaciones-secundario: #5F2167;
     --color-operaciones-acento1: #fbb03b;
     --color-operaciones-acento2: #a3221c;
+    --color-atc-principal: #5F2167;
+    --color-atc-secundario: #E1261B;
 
 
     --icon-bus: url(https://universidad.mobilityado.com/pluginfile.php/55317/mod_folder/content/0/iconos/bus.svg);
@@ -123,6 +126,17 @@
     --logo-operaciones-negativo: url(https://universidad.mobilityado.com/pluginfile.php/36/mod_folder/content/0/Logos/logo_operaciones_negativo.svg);
     --logo-operaciones-redux: url(https://universidad.mobilityado.com/pluginfile.php/36/mod_folder/content/0/Logos/logo_operaciones_redux.svg);
     --logo-operaciones-redux-negativo: url(https://universidad.mobilityado.com/pluginfile.php/36/mod_folder/content/0/Logos/logo_operaciones_redux_negativo.svg);
+
+    --logo-atc: url(https://universidad.mobilityado.com/pluginfile.php/8424/mod_folder/content/0/logo_atc_positivo.svg);
+    --logo-atc-negativo: url(https://universidad.mobilityado.com/pluginfile.php/8424/mod_folder/content/0/logo_atc_negativo.svg);
+    --logo-atc-redux: url(https://universidad.mobilityado.com/pluginfile.php/8424/mod_folder/content/0/logo_atc_redux.svg);
+    --logo-atc-redux-negativo: url(https://universidad.mobilityado.com/pluginfile.php/8424/mod_folder/content/0/logo_atc_redux_negativo.svg);
+    --logo-atc-blanco: url(https://universidad.mobilityado.com/pluginfile.php/8424/mod_folder/content/0/logo_atc_blanco.svg);
+    --logo-atc-redux-blanco: url(https://universidad.mobilityado.com/pluginfile.php/8424/mod_folder/content/0/logo_atc_redux_blanco.svg);
+
+    --logo-embus: url(https://universidad.mobilityado.com/pluginfile.php/33/mod_folder/content/0/EMBUS/logo_embus_positivo.svg);
+    --logo-embus-negativo: url(https://universidad.mobilityado.com/pluginfile.php/33/mod_folder/content/0/EMBUS/logo_embus_negativo.svg);
+    --logo-embus-blanco: url(https://universidad.mobilityado.com/pluginfile.php/33/mod_folder/content/0/EMBUS/logo_embus_blanco.svg);
 }
 
 
@@ -143,7 +157,13 @@ h6,
     font-family: "Rams", "Roboto", sans-serif !important;
 }
 
+a{
+    color: var(--color-mado-rojo);
+}
 
+a:hover{
+    color: var(--color-mado-rojo);
+}
 
 .accordion {
 
@@ -854,6 +874,8 @@ h5.bg {
     background-image: var(--logo-uado-redux-negativo);
 }
 
+
+
 .logo.mado{
     background-image: var(--logo-mado);
 }
@@ -868,6 +890,64 @@ h5.bg {
 
 .logo.mado.redux.negativo{
     background-image: var(--logo-mado-redux-negativo);
+}
+
+.logo.mado.blanco{
+    background-image: var(--logo-mado-blanco);
+}
+
+.logo.mado.redux.blanco{
+    background-image: var(--logo-mado-redux-blanco);
+}
+
+
+.logo.atc{
+    background-image: var(--logo-atc);
+}
+
+.logo.atc.negativo{
+    background-image: var(--logo-atc-negativo);
+}
+
+.logo.atc.redux{
+    background-image: var(--logo-atc-redux);
+}
+
+.logo.atc.redux.negativo{
+    background-image: var(--logo-atc-redux-negativo);
+}
+
+.logo.atc.blanco{
+    background-image: var(--logo-atc-blanco);
+}
+
+.logo.atc.redux.blanco{
+    background-image: var(--logo-atc-redux-blanco);
+}
+
+
+.logo.embus{
+    background-image: var(--logo-embus);
+}
+
+.logo.embus.negativo{
+    background-image: var(--logo-embus-negativo);
+}
+
+.logo.embus.redux{
+    background-image: var(--logo-embus);
+}
+
+.logo.embus.redux.negativo{
+    background-image: var(--logo-embus-negativo);
+}
+
+.logo.embus.blanco{
+    background-image: var(--logo-embus-blanco);
+}
+
+.logo.embus.redux.blanco{
+    background-image: var(--logo-embus-blanco);
 }
 
 
@@ -961,8 +1041,8 @@ h5.bg {
 
 .lista-iconos li {
     list-style: none;
-    margin-left: 15px;
-    margin-bottom: 15px;
+    margin-left: 15px !important;
+    margin-bottom: 15px !important;
     padding-left: 45px;
 }
 
@@ -994,121 +1074,6 @@ h5.bg {
     height: 30px;
     left: 20px;
 }
-
-
-
-/* .icono.bus::before,
-.lista-iconos li.bus::before {
-    background-image: var(--icon-bus);
-}
-
-.icono.fondo.bus::before,
-.lista-iconos.fondo li.bus::before {
-    background-image: var(--icon-bus-bg);
-}
-
-.icono.bici::before,
-.lista-iconos li.bici::before {
-    background-image: var(--icon-bici);
-}
-
-.icono.idea::before,
-.lista-iconos li.idea::before {
-    background-image: var(--icon-idea);
-}
-
-.icono.globotexto::before,
-.lista-iconos li.globotexto::before {
-    background-image: var(--icon-globotexto);
-}
-
-.icono.pin::before,
-.lista-iconos li.pin::before {
-    background-image: var(--icon-pin);
-}
-
-.icono.notas::before,
-.lista-iconos li.notas::before {
-    background-image: var(--icon-notas);
-}
-
-.icono.trole::before,
-.lista-iconos li.trole::before {
-    background-image: var(--icon-trole);
-}
-
-.icono.documento::before,
-.lista-iconos li.documento::before {
-    background-image: var(--icon-documento);
-}
-
-.icono.folder::before,
-.lista-iconos li.folder::before {
-    background-image: var(--icon-folder);
-}
-
-.icono.info::before,
-.lista-iconos li.info::before {
-    background-image: var(--icon-info);
-}
-
-.icono.persona::before,
-.lista-iconos li.persona::before {
-    background-image: var(--icon-persona);
-}
-
-.icono.lupa::before,
-.lista-iconos li.lupa::before {
-    background-image: var(--icon-lupa);
-}
-
-.icono.corazon::before,
-.lista-iconos li.corazon::before {
-    background-image: var(--icon-corazon);
-}
-
-.icono.birrete::before,
-.lista-iconos li.birrete::before {
-    background-image: var(--icon-birrete);
-}
-
-.icono.certificado::before,
-.lista-iconos li.certificado::before {
-    background-image: var(--icon-certificado);
-}
-
-.icono.alerta::before,
-.lista-iconos li.alerta::before {
-    background-image: var(--icon-alerta);
-}
-
-.icono.reloj::before,
-.lista-iconos li.reloj::before {
-    background-image: var(--icon-reloj);
-}
-
-.icono.target::before,
-.lista-iconos li.target::before {
-    background-image: var(--icon-target);
-}
-
-
-.icono.check::before,
-.lista-iconos li.check::before {
-    background-image: var(--icon-check);
-}
-
-
-.icono.tache::before,
-.lista-iconos li.tache::before {
-    background-image: var(--icon-tache);
-}
-
-.icono.dinero::before,
-.lista-iconos li.dinero::before {
-    background-image: var(--icon-dinero); 
-}
-*/
 
 
 /* Default icons */

@@ -1,4 +1,6 @@
 .embus {
+    --embus-gradiente: linear-gradient(180deg, #2180c3 0%, #000000 100%);
+
     color: var(--color-embus-principal) !important;
 
     h1 {
@@ -10,7 +12,9 @@
     h2,
     h3,
     h4,
-    h5 {
+    h5,
+    b,
+    strong {
         color: #e841d9 !important;
     }
 
@@ -19,20 +23,32 @@
         font-weight: 200;
     }
 
-    h3 {
-        margin-top: 30px;
-        margin-left: 20px;
+    h3,
+    h4,
+    .call2action {
+        color: var(--color-embus-acento1) !important;
+    }
+
+    a,
+    a:hover {
+        color: var(--color-embus-acento1);
     }
 
     .btn-primary {
-        background-color: #8cc896 !important;
-        border-color: #8cc896 !important;
+        background-color: var(--color-embus-acento1) !important;
+        border-color: var(--color-embus-acento1) !important;
     }
 
-    h2.bg {
+    .bg {
         background-color: var(--color-embus-principal) !important;
         color: #fff !important;
         padding: 10px;
+    }
+
+    .borde {
+        border-bottom: solid thin var(--color-embus-acento1) !important;
+        padding-bottom: 10px;
+        margin-bottom: 10px;
     }
 
     video {
@@ -45,7 +61,7 @@
     }
 
     .bg-gradiente {
-        background: linear-gradient(180deg, #2180c3 0%, #000000 100%);
+        background: var(--embus-gradiente);
 
         color: white !important;
 
@@ -57,16 +73,59 @@
         }
     }
 
-    .bg-textura-embus {
+    .bg-textura-embus,
+    .bg-textura,
+    .repaso .cierre {
+        background-color: #212121;
         background-image: url(https://universidad.mobilityado.com/pluginfile.php/33/mod_folder/content/0/EMBUS/textura_embus.svg);
+        /* background-image: url(Images/textura_embus.svg); */
         background-repeat: no-repeat;
-        background-position: bottom left 10px;
+        background-position: bottom -50px left 10px;
         background-size: 150px auto;
+        padding-bottom: 150px;
     }
 
     .bg-claro {
         background-color: var(--color-embus-claro);
         padding: 20px !important;
+    }
+
+    .bg-azul {
+        background-color: var(--color-embus-principal);
+        color: white !important;
+
+        h2,
+        h3,
+        h4,
+        h5,
+        b,
+        strong {
+            color: #fff !important;
+        }
+    }
+
+    .bg-azulclaro {
+        background-color: var(--color-embus-claro);
+    }
+
+    .banner {
+        .titulo {
+            background-color: var(--color-embus-principal);
+        }
+
+        p {
+            background-color: var(--color-embus-principal);
+        }
+    }
+
+    .introduccion {
+        h2 {
+            font-size: xxx-large;
+        }
+
+        .material {
+            background: var(--embus-gradiente)
+        }
     }
 
     .materiales {
@@ -111,6 +170,49 @@
         .tema {
             font-weight: 700;
         }
+    }
+
+    .icono::before,
+    .lista-iconos li::before {
+        filter: invert(36%) sepia(96%) saturate(1422%) hue-rotate(278deg) brightness(92%) contrast(98%);
+    }
+
+    .repaso{
+
+        .head{
+            background-color: var(--color-embus-principal);
+            color: white !important;
+
+            h2{
+                font-size: xxx-large;
+                font-weight: 500;
+            }
+        }
+    }
+
+    .importante{
+        background-color: var(--color-embus-principal);
+        color: white !important;
+
+        a, a:hover{
+            color: white !important;
+            font-weight: 700;
+            text-decoration: underline;
+        }
+    }
+
+    .objetivo{
+        background-color: var(--color-embus-claro);
+    }
+
+    .ejemplo,
+    .tips{
+        background-color: var(--color-embus-secundario);
+        color: white !important;
+    }
+
+    .accordion .btn-link{
+        color: var(--color-embus-secundario) !important;
     }
 }
 

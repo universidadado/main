@@ -1,10 +1,24 @@
 .atc {
 
+    h1,
+    h5{
+        color: var(--color-mado-morado);
+    }
+
     h2,
     h3,
-    h4,
-    h5 {
+    h4 {
         color: var(--color-mado-rojo);
+    }
+
+    .bg-oscuro,
+    .bg-gris,
+    .bg-imagen,
+    .bg-img-izq,
+    .ejemplo,
+    .tips {
+        border-radius: 30px;
+        overflow: hidden;
     }
 
     .bg-oscuro {
@@ -16,6 +30,11 @@
         .call2action {
             color: white !important;
         }
+    }
+
+    .bg-img-izq {
+        background-color: var(--color-atc-principal);
+        color: white !important;
     }
 
     .logo_bg {
@@ -31,20 +50,37 @@
     }
 
     h1.bg {
-        background-color: var(--color-mado-rojo);
+        background-color: var(--color-atc-secundario);
         color: white !important;
         padding: 8px;
         font-weight: 200;
     }
 
+    h2.bg,
     h3.bg,
     h4.bg {
-        background-color: var(--color-mado-morado);
+        background-color: var(--color-atc-principal);
         color: white !important;
         font-weight: 400 !important;
         font-size: xx-large;
         padding: 20px;
         padding-left: 20px !important;
+
+        span{
+            color: var(--color-atc-secundario) !important;
+        }
+    }
+
+    h2.borde,
+    h3.borde,
+    h4.borde {
+        border-bottom: thin solid var(--color-atc-principal);
+        padding-bottom: 10px;
+        margin-bottom: 10px;
+
+        span{
+            color: var(--color-atc-principal) !important;
+        }
     }
 
     .banner {
@@ -65,7 +101,7 @@
             background-image: url(https://universidad.mobilityado.com/pluginfile.php/3230/course/overviewfiles/16.jpg);
         }
 
-        h3 {
+        h2,h3,h4 {
             font-weight: 400 !important;
             font-size: xx-large;
             margin: 30px 12px;
@@ -88,6 +124,40 @@
 
     .importante {
         background: var(--color-mado-morado);
+        color: white !important;
+    }
+
+    .introduccion{
+        background-color: var(--color-atc-principal) !important;
+        padding: 15px;
+        color: white !important;
+        border-radius: 30px;
+
+        a{
+            color: var(--color-atc-secundario);
+        }
+
+        .break{
+            border-top-color: var(--color-atc-secundario);
+        }
+
+        .material{
+            background-color: var(--color-atc-principal) !important;
+        }
+    }
+
+    .repaso{
+        border-radius: 30px !important;
+        overflow: hidden;
+
+        .head{
+            background-color: var(--color-atc-principal);
+            color: white !important;
+        }
+    }
+
+    .tips{
+        background-color: var(--color-atc-principal);
         color: white !important;
     }
 }
