@@ -763,10 +763,15 @@ h5.bg {
 .bg-imagen{
     background-size: cover;
     background-position: center;
+    background-repeat: no-repeat;
+    min-height: 500px;
+    background-color: #e5e5e5;
 
     .col{
         background-color: rgba(0, 0, 0, 0.5);
         color: white !important;
+        height: auto !important;
+        align-self: flex-start !important;
 
         h1,
         h2,
