@@ -98,6 +98,10 @@
         b{
             color: var(--color-operaciones-acento1) !important;
         }
+
+        .highlight{
+            color: white !important;
+        }
     }
 
     .bg-img-izq{
