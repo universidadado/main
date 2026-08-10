@@ -36,6 +36,11 @@
 .bg-azul .mobility,
 .bg-img-izq .mobility,
 .mado .tips .mobility,
+.mado .mobility,
+.mado .mobility b,
+.mado .bg-imagen .mobility,
+.mado .importante h3,
+.warning b,
 .warning .mobility,
 .warning .mobility b {
     color: white !important;
