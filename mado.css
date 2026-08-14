@@ -17,7 +17,7 @@
 
     h1,
     h2 {
-        font-weight: 200;
+        font-weight:400;
     }
 
     .break {
@@ -33,6 +33,20 @@
         border-bottom: 2px solid var(--color-mado-rojo);
         padding-bottom: 30px;
         margin: 30px 0;
+
+        b{
+            color: var(--color-mado-morado) !important;
+        }
+    }
+
+    .btn-outline-primary{
+        border-color: var(--color-mado-morado);
+        color: var(--color-mado-morado) !important;
+    }
+
+    .btn-outline-primary:hover{
+        background-color: var(--color-mado-morado);
+        color: white !important;
     }
 
     .card {
